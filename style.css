@@ -1,0 +1,32 @@
+.active-timer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.timer-ended {
+    background-color: #f8d7da; 
+    border-color: #f5c6cb; 
+}
+
+.timer-ended-text {
+    font-weight: bold;
+    color: #721c24; 
+}
+
+.stop-timer-btn {
+    background-color: #dc3545;/
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.stop-timer-btn:hover {
+    background-color: #c82333; 
+}
